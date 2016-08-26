@@ -6,7 +6,6 @@ import numpy as np
 import csv, sys, re, os, os.path
 
 pwd = os.getcwd()
-sys.path.append('/Users/ddeboer/Documents/ubase/Code/aipy')
 inpath = os.path.join(os.path.split(pwd)[0],'GP_paper/')
 outpath= os.path.join(os.path.split(pwd)[0],'HP_paper/')
 print inpath
